@@ -8,11 +8,11 @@ int main()
 
 {
     double cel, fahr;
-    cout << "Введите значение Цельсия: ";
+    cout << "Please enter a Celsius volume: ";
     cin >> cel;
 
     fahr = convert(cel);
-    cout << cel << "° Цельсия " << fahr << "° по Фаренгейту" << endl;
+    cout << cel << "° Celsius is " << fahr << "° Fahrenheit" << endl;
 }
 
 double convert(double cel)
